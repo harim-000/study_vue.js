@@ -13,7 +13,7 @@ vue.js는 빠르게 변화하는 프론트엔드 시장에서 많은 장점이 �
    - 앵귤러1은 프레임워크로서 완전한 기능을 제공하는 MVC 구조로 출발하여 컴포넌트 기반의 앵귤러2로 발전했다. 이 과정에서 타입스크립트, ES6등 기타 어느 프레임워크보다 더 많은 학습이 필요하게 되었다. 리액트 또한 입문자가 학습하기에는 ES6, JSX라는 장벽이 있다. 게다가 ES7, 웹팩(Webpack) 등 신기술이 많이 생기고 있어서 쉽게 배울 수 있는 vue의 장점은 분명하다.
 
 **MVVM 패턴**
-<img src="https://blog.kakaocdn.net/dn/7IE8f/btqBRvw9sFF/AGLRdsOLuvNZ9okmGOlkx1/img.png" width="200" height="200"/>
+<img src="https://blog.kakaocdn.net/dn/7IE8f/btqBRvw9sFF/AGLRdsOLuvNZ9okmGOlkx1/img.png" width="200" height="200"/> <br>
 MVVM 패턴이란 화면을 모델(MODEl) - 뷰(VIEW) - 뷰 모델(ViewModel)로 구조화하여 개발하는 방식을 의미한다.
 
 
