@@ -71,19 +71,20 @@ vue.js는 빠르게 변화하는 프론트엔드 시장에서 많은 장점이 �
    - 앵귤러1은 프레임워크로서 완전한 기능을 제공하는 MVC 구조로 출발하여 컴포넌트 기반의 앵귤러2로 발전했습니다. 이 과정에서 타입스크립트, ES6등 기타 어느 프레임워크보다 더 많은 학습이 필요하게 되었습니다. 리액트 또한 입문자가 학습하기에는 ES6, JSX라는 장벽이 있습니다. 게다가 ES7, 웹팩(Webpack) 등 신기술이 많이 생기고 있어서 쉽게 배울 수 있는 vue의 장점은 분명힙니다.
 
 **MVVM 패턴** <br>
+MVVM 패턴이란 화면을 모델(MODEl) - 뷰(VIEW) - 뷰 모델(ViewModel)로 구조화하여 개발하는 방식을 의미한다. <br>
 <img src="https://blog.kakaocdn.net/dn/7IE8f/btqBRvw9sFF/AGLRdsOLuvNZ9okmGOlkx1/img.png" width="200" height="200"/> <br><br>
-MVVM 패턴이란 화면을 모델(MODEl) - 뷰(VIEW) - 뷰 모델(ViewModel)로 구조화하여 개발하는 방식을 의미한다.
-이러한 방식으로 개발하는 이유는 화면의 요소들을 제어하는 코드와 데이터 제어 로직을 분리하여 코드를 더 직관적으로 이해할 수 있어 유지보수가 편해지기 때문이다.
-Model : 어플리케이션에서 사용되는 데이터와 그 데이터를 처리하는 부분입니다.
-View : 사용자에서 보여지는 UI 부분입니다.
-View Model : View를 표현하기 위해 만든 View를 위한 Model입니다. View를 나타내 주기 위한 Model이자 View를 나타내기 위한 데이터 처리를 하는 부분입니다.
+이러한 방식으로 개발하는 이유는 화면의 요소들을 제어하는 코드와 데이터 제어 로직을 분리하여 코드를 더 직관적으로 이해할 수 있어 유지보수가 편해지기 때문이다.<br>
+Model : 어플리케이션에서 사용되는 데이터와 그 데이터를 처리하는 부분입니다.<br>
+View : 사용자에서 보여지는 UI 부분입니다.<br>
+View Model : View를 표현하기 위해 만든 View를 위한 Model입니다. View를 나타내 주기 위한 Model이자 View를 나타내기 위한 데이터 처리를 하는 부분입니다.<br>
+<br><br><br>
 1. MVVM 패턴의 동작 순서는 아래와 같습니다. <br>
- - 사용자의 Action들은 View를 통해 들어오게 됩니다.
- - View에 Action이 들어오면, Command 패턴으로 View Model에 Action을 전달합니다.
- - View Model은 Model에게 데이터를 요청합니다.
- - Model은 View Model에게 요청받은 데이터를 응답합니다.
- - View Model은 응답 받은 데이터를 가공하여 저장합니다.
- - View는 View Model과 Data Binding하여 화면을 나타냅니다. <br>
+- 사용자의 Action들은 View를 통해 들어오게 됩니다.
+- View에 Action이 들어오면, Command 패턴으로 View Model에 Action을 전달합니다.
+- View Model은 Model에게 데이터를 요청합니다.
+- Model은 View Model에게 요청받은 데이터를 응답합니다.
+- View Model은 응답 받은 데이터를 가공하여 저장합니다.
+- View는 View Model과 Data Binding하여 화면을 나타냅니다. <br>
 2. 특징 <br>
 MVVM 패턴은 Command 패턴과 Data Binding 두 가지 패턴을 사용하여 구현되었습니다.
 Command 패턴과 Data Binding을 이용하여 View와 View Model 사이의 의존성을 없앴습니다.
