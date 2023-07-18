@@ -77,9 +77,8 @@ MVVM 패턴이란 화면을 모델(MODEl) - 뷰(VIEW) - 뷰 모델(ViewModel)로
 Model : 어플리케이션에서 사용되는 데이터와 그 데이터를 처리하는 부분입니다.
 View : 사용자에서 보여지는 UI 부분입니다.
 View Model : View를 표현하기 위해 만든 View를 위한 Model입니다. View를 나타내 주기 위한 Model이자 View를 나타내기 위한 데이터 처리를 하는 부분입니다.
-1. 동작 <br>
-MVVM 패턴의 동작 순서는 아래와 같습니다.
-- 사용자의 Action들은 View를 통해 들어오게 됩니다.
+1. MVVM 패턴의 동작 순서는 아래와 같습니다. <br>
+ - 사용자의 Action들은 View를 통해 들어오게 됩니다.
  - View에 Action이 들어오면, Command 패턴으로 View Model에 Action을 전달합니다.
  - View Model은 Model에게 데이터를 요청합니다.
  - Model은 View Model에게 요청받은 데이터를 응답합니다.
