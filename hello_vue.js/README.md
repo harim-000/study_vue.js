@@ -1,3 +1,4 @@
+
 ## MVVM 패턴
 view는 ui 화면 개발 방법 중 하나인 MVVM 패턴의 뷰 모델(VuewModel)에 해당하는 화면단 라이브러리입니다.
 <img src="https://blog.kakaocdn.net/dn/7IE8f/btqBRvw9sFF/AGLRdsOLuvNZ9okmGOlkx1/img.png" width="200" height="200"/> <br><br>
@@ -51,7 +52,7 @@ https://velog.io/@jakeseo_me/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A
 뷰 인스턴스는 뷰로 화면을 개발하기 위해 필수적으로 생성해야 하는 기본 단위이다.<br>
 
 **기본 형식**
-new Vue(); <br>
+new Vue();<br>
 위에서 인스턴스를 생성할 때 Vue를 생성자라고 한다. Vue 생성자는 뷰 라이브러리를 로딩하고 나면 접근할 수 있다(객체를 새로 생성하는 개념이라고 보면 된다.). 일반적으로 객체지향 프로그래밍에서 메서드 재활용을 위해 하는 객체생성과 똑같은 의도로 쓴다. 즉 필요 기능들을 생성자에 미리 정의하고 사용자가 그 기능을 개정의하여 편리하게 사용할 수 있게 하는 것이다.<br>
 
 **인스턴스의 속성, API들**
@@ -147,11 +148,10 @@ new Vue({
  
 ## 컴포넌트 통신 방식
 유지보수의 용이성을 위해 컴포넌트 통신에는 규칙이 있다. 트리방식으로 일방향 통신을 하기 때문에 상위컴포넌트가 다수의 하위 컴포넌트들을 가진다. 
-<img src="" width="20%" height="30%">
-
+<img src="component.png" width="200" height="200"/> <br><br>
 
 **인스턴스와 컴포넌트의 관계**
-![image](https://github.com/harim-000/study_vue.js/assets/81612425/85646861-7bd4-4c30-870a-4c3fac794ae6)"<br><br>
+<img src="" width="200" height="200"/> <br><br>
 
 ### 컴포넌트 통신 방법
 
