@@ -1,4 +1,4 @@
-# hello_vue
+# todolist
 
 ## Project setup
 ```
