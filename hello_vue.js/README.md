@@ -138,7 +138,8 @@ Vue.component('app-header', {
 <img src="img/component.png" width="200" height="200"/> <br><br>
 
 **인스턴스와 컴포넌트의 관계**
-<img src="img/component-communication.png" width="200" height="200"/> <br><br>
+vue.js cli 프로젝트에서는 .vue 확장자로 컴포넌트를 등록하는데, 각각의 컴포넌트들에 인스턴스들이 생성되어 데이터 바인딩 된 후 그 컴포넌트들이 App.vue 라는 최상위 컴포넌트를 통해 화면에 보여진다.
+
 
 ### 컴포넌트 통신 방법
 
