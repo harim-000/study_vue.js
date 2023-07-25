@@ -1,0 +1,22 @@
+{
+  "name": "lecture-vue-trello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "starting"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harim-000/study_vue.js.git"
+  },
+  "keywords": [
+    "hi_vue"
+  ],
+  "author": "harim-000",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harim-000/study_vue.js/issues"
+  },
+  "homepage": "https://github.com/harim-000/study_vue.js#readme"
+}
